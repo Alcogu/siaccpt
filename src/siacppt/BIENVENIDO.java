@@ -84,13 +84,19 @@ public class BIENVENIDO extends javax.swing.JFrame {
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel1.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
 
+        clave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                claveActionPerformed(evt);
+            }
+        });
+
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel2.setText("clave");
         jLabel2.setFocusCycleRoot(true);
         jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel2.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
 
-        jButton1.setText("acectar");
+        jButton1.setText("Aceptar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -149,6 +155,10 @@ public class BIENVENIDO extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
               this.login();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void claveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_claveActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_claveActionPerformed
 
     
     public static void main(String args[]) {

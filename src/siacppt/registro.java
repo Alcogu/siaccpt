@@ -90,7 +90,6 @@ DateFormat h= DateFormat.getDateInstance();
         rpclave = new javax.swing.JPasswordField();
         jLabel29 = new javax.swing.JLabel();
         direccion = new org.edisoncor.gui.textField.TextFieldRectBackground();
-        fecha_nacimiento = new com.toedter.calendar.JDateChooser();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -243,8 +242,7 @@ DateFormat h= DateFormat.getDateInstance();
                                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(clave)
                                             .addComponent(documento, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE))
-                                        .addGap(0, 0, Short.MAX_VALUE))
-                                    .addComponent(fecha_nacimiento, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                        .addGap(0, 0, Short.MAX_VALUE))))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(jButton1)
@@ -315,9 +313,7 @@ DateFormat h= DateFormat.getDateInstance();
                         .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(rpclave, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fecha_nacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -407,7 +403,6 @@ DateFormat h= DateFormat.getDateInstance();
     private org.edisoncor.gui.textField.TextFieldRectBackground correo;
     private org.edisoncor.gui.textField.TextFieldRectBackground direccion;
     private org.edisoncor.gui.textField.TextFieldRectBackground documento;
-    private com.toedter.calendar.JDateChooser fecha_nacimiento;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel20;
